@@ -9,13 +9,13 @@
 
       <nav class="navbar">
         <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/about">about</a></li>
-          <li><a href="/education">education</a></li>
-          <li><a href="/skill">skill</a></li>
-          <li><a href="/portfolio">portfolio</a></li>
-          <li><a href="/gallery">gallery</a></li>
-          <li><a href="/contact">contact</a></li>
+          <li><router-link to="/">home</router-link></li>
+          <li><router-link to="/about">about</router-link></li>
+          <li><router-link to="/education">education</router-link></li>
+          <li><router-link to="/skill">skill</router-link></li>
+          <li><router-link to="/portfolio">portfolio</router-link></li>
+          <li><router-link to="/gallery">gallery</router-link></li>
+          <li><router-link to="/contact">contact</router-link></li>
         </ul>
       </nav>
     </header>
